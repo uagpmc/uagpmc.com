@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "turbo": "next --turbo",
+    "build": "next build"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.1.4",
+    "tailwindcss": "^3.3.0"
+  }
+}
