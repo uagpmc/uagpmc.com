@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "turbo": "next --turbo",
+    "dev": "next --turbo",
     "build": "next build"
   },
   "dependencies": {
