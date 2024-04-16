@@ -1,5 +1,3 @@
-import "./page.css";
-
 export default function Home() {
   return (
     <>
@@ -7,12 +5,12 @@ export default function Home() {
       <h1>Unnamed Arma Group</h1>
       <span>Make memes, not war.</span>
       <p>
-        Unnamed Arma Group is a community dedicated to hosting
-        <abbr title="realistic but still fun">"seriously fun"</abbr>
-        sessions for the Armed Assault (Arma) series of games. We specifically
-        focus on small team tactics where each member is a vital part of the
-        team and not just a grunt. You'll also find that we have a relaxed
-        atmosphere, with no "yes sir, no sir" bullshit to deal with.
+        Unnamed Arma Group is a community dedicated to hosting{" "}
+        <abbr title="realistic but still fun">"seriously fun"</abbr> sessions
+        for the Armed Assault (Arma) series of games. We specifically focus on
+        small team tactics where each member is a vital part of the team and not
+        just a grunt. You'll also find that we have a relaxed atmosphere, with
+        no "yes sir, no sir" bullshit to deal with.
       </p>
       <p>
         We're currently in the process of getting everything set up again after
