@@ -5,4 +5,11 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   plugins: [],
+  theme: {
+    extend: {
+      colors: {
+        uaggreen: "#90b477",
+      },
+    },
+  },
 };

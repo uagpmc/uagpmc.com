@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  font-family: monospace;
-}
-
 /* remove scrollbar but keep functionality */
 ::-webkit-scrollbar {
   display: none;
