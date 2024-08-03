@@ -1,3 +1,30 @@
 html {
   background: var(--uag-green);
 }
+
+header.marquee {
+  background-color: red;
+  color: white;
+  overflow: hidden;
+  height: 25px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+header.marquee p {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 25px;
+  transform: translateX(100%);
+  animation: marquee 25s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

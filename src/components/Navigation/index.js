@@ -3,12 +3,42 @@
 import { useState } from "react";
 
 const links = [
-  { title: "What we do", url: "#" },
-  { title: "Who we are", url: "#" },
-  { title: "Where we are", url: "#" },
-  { title: "News & Events", url: "#" },
-  { title: "People & Careers", url: "#" },
-  { title: "Equipment", url: "#" },
+  {
+    name: "What we do",
+    // url: "/what-we-do",
+    className: "opacity-50 cursor-not-allowed",
+    title: "Coming soon...",
+  },
+  {
+    name: "Who we are",
+    // url: "/who-we-are",
+    className: "opacity-50 cursor-not-allowed",
+    title: "Coming soon...",
+  },
+  {
+    name: "Where we are",
+    // url: "/where-we-are",
+    className: "opacity-50 cursor-not-allowed",
+    title: "Coming soon...",
+  },
+  {
+    name: "News & Events",
+    // url: "/news-and-events",
+    className: "opacity-50 cursor-not-allowed",
+    title: "Coming soon...",
+  },
+  {
+    name: "People & Careers",
+    // url: "/people-and-careers",
+    className: "opacity-50 cursor-not-allowed",
+    title: "Coming soon...",
+  },
+  {
+    title: "Equipment",
+    // url: "/equipment",
+    className: "opacity-50 cursor-not-allowed",
+    title: "Coming soon...",
+  },
 ];
 
 export default function Navigation() {
@@ -26,13 +56,14 @@ export default function Navigation() {
         </button>
         {open && (
           <div className="absolute top-16 left-0 w-full bg-white flex flex-col items-center divide-y-2">
-            {links.map((link) => (
+            {links.map((link, index) => (
               <a
-                key={link.title}
+                key={index}
                 href={link.url}
-                className="text-lg font-bold hover:text-uaggreen uppercase py-2"
+                className={`text-lg font-bold hover:text-uaggreen uppercase py-2 ${link.className}`}
+                title={link.title}
               >
-                {link.title}
+                {link.name}
               </a>
             ))}
           </div>
@@ -40,13 +71,14 @@ export default function Navigation() {
       </nav>
       <nav className="hidden w-full h-32 lg:flex flex-row justify-around items-center bg-white">
         <img src="/yeet21.png" alt="UAG Logo" className="py-4 h-32" />
-        {links.map((link) => (
+        {links.map((link, index) => (
           <a
-            key={link.title}
+            key={index}
             href={link.url}
-            className="text-lg font-bold hover:text-uaggreen uppercase"
+            className={`text-lg font-bold hover:text-uaggreen uppercase ${link.className}`}
+            title={link.title}
           >
-            {link.title}
+            {link.name}
           </a>
         ))}
       </nav>
