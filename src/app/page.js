@@ -39,7 +39,7 @@ export default () => {
             title: "What We Do",
             description:
               "Pioneers in the field of private security and intelligence",
-            background: "/yeet21.png",
+            background: "/toc.jpg",
             href: "/what-we-do",
           },
           {
@@ -90,7 +90,7 @@ export default () => {
               }}
             >
               <div className="h-full w-full flex flex-col justify-center items-center">
-                <div className="bg-black bg-opacity-75 space-y-2 p-2">
+                <div className="bg-black bg-opacity-50 space-y-2 p-2">
                   <h2 className="text-2xl font-bold">{tile.title}</h2>
                   <p className="text-4xl font-bold">{tile.description}</p>
                 </div>
