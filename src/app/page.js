@@ -59,7 +59,7 @@ export default () => {
           {
             title: "News & Events",
             description: "Stay up to date with the latest from UAG",
-            background: "/yeet21.png",
+            background: "/newsman.png",
             href: "/news-and-events",
           },
           {
