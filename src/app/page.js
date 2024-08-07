@@ -65,14 +65,14 @@ export default () => {
           {
             title: "People & Careers",
             description: "Join our team of professionals and make a difference",
-            background: "/yeet21.png",
+            background: "/people-and-careers.jpg",
             href: "/people-and-careers",
           },
           {
             title: "Equipment",
             description:
               "Bleeding-edge technology and equipment to get the job done",
-            background: "/yeet21.png",
+            background: "/equipment.jpg",
             href: "/equipment",
           },
         ].map((tile, index) => (
